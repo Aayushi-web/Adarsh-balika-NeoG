@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&family=Nunito:ital,wght@1,200&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -6,13 +7,21 @@ body{
    
 }
 nav{
-    background:yellow;
+    background:violet;
     height: 20vh;
     margin-left: 137px;
     margin-right:137px;
+    border-radius: 0 0 0 23px;
 }
 .nav-bar{
     display: flex;}
+    .nav-bar h1{
+       margin-top: 10px;
+       margin-left: 10px;
+       cursor: pointer;
+       color: white;
+       font-family: 'Hind', sans-serif;
+    }
 .nav-bar ul{
     display: flex;
 margin-left: 57%;
@@ -20,4 +29,8 @@ margin-top: 54px
     }
 .nav-bar ul li{
 margin-left: 65px;
+list-style: none;
+color: aliceblue;
+cursor: pointer;
+font-family: 'Hind', sans-serif;
 }
