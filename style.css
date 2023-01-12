@@ -3,5 +3,20 @@
     margin: 0;
 }
 body{
-    color: aqua;
+   
+}
+nav{
+    background:yellow;
+    height: 20vh;
+    margin-left: 204px;
+    margin-right: 204px;
+}
+.nav-bar{
+    display: flex;}
+.nav-bar ul{
+    display: flex;
+    margin-left: 52%;
+    }
+.nav-bar ul li{
+margin-left: 20px;
 }
