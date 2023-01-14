@@ -129,4 +129,31 @@ font-family:"Montserrat", sans-serif  ;
 margin-left: 317px;
 background: #dedede;
 }
+footer{
+    margin-top: 20px;
+    background-color: rgb(164, 48, 227);
+    margin-left: 317px;
+    height: 20vh;
+    overflow: hidden;
+    border-radius: 0 23px 0 0;
+}
+footer h2{
+    color: white;
+    text-align:  center;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.social{
+    
+    margin-left:  331px;
+margin-top: 30px;
+}
+.social a{
+  text-decoration: none;
+  color: white;
+ margin-left: 46px;
+ font-family: "Montserrat", sans-serif ;
+}
+
 
