@@ -9,8 +9,8 @@ body{
 nav{
     background:rgb(158, 78, 244);
     height: 11vh;
-    margin-left: 137px;
-    margin-right:137px;
+    margin-left: 160px;
+    margin-right:160px;
     border-radius: 0 0 0 23px;
     width: 74vw;
 }
@@ -37,18 +37,20 @@ font-family: 'Hind', sans-serif;
 }
 .img img{
     width:35vw;
-    margin-left: 460px;
+   margin-left: 567px;;
 margin-top: 40px;
 } 
 .txt{
     text-align: center;
 
 }
+
  h2.txt{
     font-size: clamp(1rem, 10vw, 2rem); 
     font-family: "Montserrat", sans-serif;
     color: darkgray;
-    margin-left: 145px;
+    margin-left: 315px;
+   padding: 40px;
     font-size: 35px;
 }
 
@@ -56,6 +58,40 @@ margin-top: 40px;
     color: rgb(158, 78, 244);
     font-family: "Montserrat", sans-serif;
 }
+
 .sec1{
-    background: lightgreen;
+    background: #dedede;
+/* width: 779px; */
+padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
+margin-left: 317px;
+}
+ h1{
+    text-align:  center;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 15px;
+}
+.project{
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
+margin-left: 317px;
+}
+p{
+    font-family:"Montserrat", sans-serif  ;
+    font-size: 18px;
+}
+button.btn{
+    width: 110px;
+height: 45px;
+border-radius: 35px;
+background-color: rgb(158, 78, 244);
+color: white;
+margin: 20px;
+border: 2px solid white;
+font-family:"Montserrat", sans-serif ;
+cursor: pointer;
 }
