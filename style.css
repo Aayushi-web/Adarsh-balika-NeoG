@@ -4,7 +4,7 @@
     margin: 0;
 }
 body{
-   
+   max-width: 85%;
 }
 nav{
     background:rgb(158, 78, 244);
@@ -12,6 +12,7 @@ nav{
     margin-left: 137px;
     margin-right:137px;
     border-radius: 0 0 0 23px;
+    width: 74vw;
 }
 .nav-bar{
     display: flex;}
@@ -43,10 +44,18 @@ margin-top: 40px;
     text-align: center;
 
 }
- h2 .txt{
+ h2.txt{
     font-size: clamp(1rem, 10vw, 2rem); 
+    font-family: "Montserrat", sans-serif;
+    color: darkgray;
+    margin-left: 145px;
+    font-size: 35px;
 }
 
 .txt span{
     color: rgb(158, 78, 244);
+    font-family: "Montserrat", sans-serif;
+}
+.sec1{
+    background: lightgreen;
 }
