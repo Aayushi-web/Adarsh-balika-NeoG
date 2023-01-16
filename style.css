@@ -4,11 +4,11 @@
     padding: 0;
     margin: 0;
 }
-
+/* 
 body {
     max-width: 85%;
 
-}
+} */
 
 nav {
     background: rgb(158, 78, 244);
@@ -183,7 +183,7 @@ footer h2 {
 
 @media (max-width:600px) {
     nav {
-        height: 11vh;
+        height: 15vh;
         margin-left: 5px;
         margin-right: 25px;
         border-radius: 0 0 0 23px;
@@ -196,7 +196,7 @@ footer h2 {
 
     footer {
         margin-left: 70px;
-     height: 30vh;
+        height: 25vh;
     }
 
     .project {
@@ -230,7 +230,7 @@ footer h2 {
 
     .nav-bar ul {
         display: flex;
-        margin-left: 14px;
+        margin-left: 90px;
         margin-top: 31px;
         flex-direction: column;
     }
@@ -238,6 +238,7 @@ footer h2 {
     .nav-bar ul li {
         font-size: 16px;
         margin-left: 6px;
+        
     }
 }
 
@@ -278,18 +279,30 @@ footer h2 {
 
     .img img {
         width: 66vw;
-        margin-left: 46px;
+        margin-left:50px;
         margin-top: 38px;
     }
+    .nav-bar ul {
+        display: flex;
+        margin-left: 14px;
+        margin-top: 80px;
+        flex-direction: column;}
+        .social {
+            display: flex;
+            flex-direction: column;
+            margin-left: 52px;}
+            footer{
+               
+                height: 17vh;
+            }
 }
 
-@media (max-width:1100px) {
+ @media (max-width:1100px) {
     .nav-bar ul {
         margin-left: 32%;
     }
     .img img {
-        margin-left: 323px;
-      }
+        margin-left: 251px;}
       h2.txt {
         margin-left: 193px;}
         .sec1 {
@@ -303,5 +316,30 @@ footer h2 {
     footer {
         margin-left: 161px;
         height: 15vh;
+        
     }
+    .social {
+        margin-left: 156px;}
+}
+@media (max-width:935px){
+    .nav-bar ul {
+        margin-left: 13%;
+      }
+      .img img {
+        margin-left: 251px;}
+}
+@media  (max-width:717px){
+    .nav-bar ul { display: flex;
+        margin-left: 156px;
+        margin-top: 10px;
+        flex-direction: column;
+      }
+      .social {
+        margin-left: 62px;
+      }
+      nav{
+        margin-left: 103px;
+      }
+      .img img {
+        margin-left: 251px;}
 }
