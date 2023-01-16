@@ -182,10 +182,32 @@ width: 80vw;
     .social{
       display:flex; 
       flex-direction: column; 
-        margin-left:50px; 
+        margin-left:32px; 
         margin-top: 10px;
     }
     .social a{
         margin-top: 5px;
     }
+    
+    h2.txt{
+        margin-left: 30px;
+    }
+    .img img {
+        width: 35vw;
+        margin-left: 96px;
+        margin-top: 30px;}
+        .nav-bar ul{
+            display: flex;
+margin-left: 14px;
+margin-top: 31px;
+flex-direction: column;
+        }
+        .nav-bar ul li{
+            font-size: 16px;
+            margin-left: 6px;
+        }
 }
+       
+        @media (max-width:320px){
+            
+        }
